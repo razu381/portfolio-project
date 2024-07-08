@@ -100,7 +100,7 @@ main section{
     margin: 130px 0px;
 }
 .hero{
-    background: url(images/developer.png),url(images/header_bg.png);
+    background: url(../images/developer.png),url(../images/header_bg.png);
     background-repeat: no-repeat;
     background-position: top left,bottom right;
     display: flex;
