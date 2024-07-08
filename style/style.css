@@ -6,6 +6,7 @@
 }
 .open-sans-normal {
     font-family: "Open Sans", sans-serif;
+    color: #181818;
     font-optical-sizing: auto;
     font-weight: normal;
     font-style: normal;
@@ -43,6 +44,7 @@
 
 .bg-color{
     color: #FFF8F3;
+    color: #181818;
 }
 
 .title{
@@ -177,4 +179,45 @@ main section{
 .card p{
     font-size: 16px;
     color: #181818;
+}
+
+
+/* CV section */
+.cv-content{
+    margin-top: 110px;
+    display: flex;
+    justify-content: space-between;
+    gap:73px;
+}
+
+.cv-education >h2,.cv-experience> h2{
+    font-size: 30px;
+    text-transform: capitalize;
+    color:#474747;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+.info-title{
+    text-transform: capitalize;
+    font-size: 25px;
+    font-weight: bold;
+    color: #474747;
+}
+
+.card-info{
+    text-transform: capitalize;
+    font-size: 20px;
+    font-weight: semi-bold;
+    color: #757575;
+    padding: 10px 0px;
+}
+
+.card-description{
+    font-size: 16px;
+    color: #757575;
+    padding: 20px 0px;
+}
+hr{
+    margin-bottom: 20px;
 }
