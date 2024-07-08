@@ -221,3 +221,58 @@ main section{
 hr{
     margin-bottom: 20px;
 }
+
+footer{
+    background-color: #FFF8F3;
+    display: flex;
+    padding: 130px 230px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer .col1{
+    width: 50%;
+    margin-right: 20px;
+
+}
+
+footer .col2{
+    width: 50%;
+    margin-left: 20px;
+}
+
+footer .footer-head{
+    font-size: 35px;
+    font-weight: bold;
+}
+
+footer .footer-des{
+    font-size: 16px;
+    padding: 15px 0;
+}
+
+footer .footer-icon{
+    display: flex;
+    gap: 10px;
+}
+
+footer form{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+input[type="text"],input[type="email"],textarea{
+    height: 64px;
+    border: none;
+    background-color: #fff;
+    padding: 10px;
+}
+
+::placeholder {
+    color:#757575;
+    font-size: 19px;
+    margin-left: 20px;
+    display: inline-block;
+}
